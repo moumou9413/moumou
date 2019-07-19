@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<style>
+		table,td{
+			border:1px solid black;
+			border-collapse:collapse
+		}
+		td{
+			padding: 5px;
+		}
+		table{
+			
+			margin-left:auto;
+			margin-right:auto;
+			
+			}
+		
+		#last-td{
+			text-align:center;
+		}
+		#first-div{
+			
+				width:100%;
+				height:150px;
+					
+		}
+		#last-div{text-align:center;}
+		#second-div{text-align:center;}
+		#erweima{text-align:right;}
+		#bottom{text-align:center;}
+	</style>
+	<script>
+			function init(){
+				setInterval("changeImg()",3000);
+			}
+			var i=1;
+			function changeImg(){
+				i++;
+				document.getElementById("lunbotu").src="imgs/"+i+".png";
+				
+				if(i==4){
+					i=0;
+				}
+			}
+		</script>
+	
+</head>
+<div id="first-div" >
+	<img id="lunbotu" src="imgs/1.png"
+			width="100%" height="100%">
+	</div>
+	<div id="second-div">
+		<img src="img/8.png"/>
+	</div>
+<body onload="init()">
+	
+	
+	<form action="http://localhost/doIndexUI" method="POST">
+		<table   style="font-family:'宋体'; font-size:15px;">
+			<tr>
+				<td>姓名：</td>
+				<td>
+					<input type="text" name="Name" style="width:100px; height:20px;";/>
+				</td>
+				<td>性别：</td>
+				<td>
+					<input name="Gender" type="radio" value="man">男
+					<input name="Gender" type="radio" value="women">女
+				</td>
+			
+			</tr>
+			<tr>
+				<td>年龄：</td>
+				<td><input name="Age" type="text"  style="width:100px; height:20px;" /></td>
+				<td>Email：</td>
+				<td><input name="Email"type="text"  style="width:100px; height:20px;" /></td>
+			</tr>
+			<tr>
+				<td>联系电话：</td>
+				<td>
+					<input name="Tel" type="text"  style="width:100px; height:20px;" />
+				</td>
+				<td>学历：</td>
+				<td>
+					<input name="Academic" type="text"  style="width:100px; height:20px;" />
+				</td>
+			</tr>
+			<tr>
+				<td>专业：</td>
+				<td colspan="3">
+					<input name="Major" type="text"  style="width:300px; height:20px;" />
+				</td>
+			</tr>
+			<tr>
+				<td>地址:</td>
+				<td colspan="3">
+					<input name="Addr" type="text"  style="width:300px; height:20px;" />
+				</td>
+			</tr>
+			<tr>
+				<td>工作经历:</td>
+				<td colspan="3">
+					<textarea name="Experience" placeholder="请输入信息（限100字以内）..." cols="40" rows="3"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>个人简述：</td>
+				<td colspan="3">
+					<textarea name="Introduce" placeholder="请输入信息（限150字以内）..." cols="40" rows="5"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td id="last-td"colspan="4">
+					<input name="Experience" type="submit"
+					style="background: #53CAC3; color: #FFFFFF;"
+					/>
+					
+				</td>
+				
+			</tr>
+			
+			
+		</table>
+	</form>
+</body>
+<div>
+	<div id="erweima">
+		<img src="img/11.png"/>
+	</div>
+	<div id="erweima">
+		<img src="img/12.png"/>
+	</div>
+	<div id="bottom">
+		<img src="img/6.png"/>
+	</div>
+</div>
+<div id="last-div">
+	<img src="img/7.png"/>
+</div>
+
+</html>

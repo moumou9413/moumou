@@ -1,0 +1,315 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="mobileUrl" content="http://2345.m.zhiye.com/" />
+	<link type="text/css" rel="stylesheet"
+		href="../../stnew.beisen.com/cmssite/Styles/frontmodule.css"
+		tppabs="http://stnew.beisen.com/cmssite//Styles/frontmodule.css" />
+	<link type="text/css" rel="stylesheet"
+		href="../../stcms.beisen.com/CmsPortal/6/6_themes_theme2_style.css-v=0.0.0.1.css"
+		tppabs="http://stcms.beisen.com/CmsPortal/6/6_themes_theme2_style.css?v=0.0.0.1"
+		front="css" />
+	<script type="text/javascript">
+		//mobileUrl rewrite
+		function goPAGE() {
+			if ((navigator.userAgent
+					.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+				var appSrcMetas = document.getElementsByName('mobileUrl');
+				if (appSrcMetas.length > 0) {
+					window.location.href = appSrcMetas[0]
+							.getAttribute("content");
+				}
+			}
+		}
+		goPAGE();
+
+		//opsapi
+		window.PERF_START = new Date;
+		function _splash(page, uid, tid, pid) {
+			uid = uid || 0; // 这里是用户ID
+			tid = tid || 0; // 这里是租户ID
+			pid = pid || 'unknown'; // 这里是项目标识
+			var now = new Date;
+			var start = window.PERF_START || now;
+			var diff = now - start;
+			var rand = Math.round(Math.random() * 1000000);
+			var url = document.location.protocol
+					+ '//opsapi.beisen.com/opsapi/AddLog?appName=' + pid
+					+ '&label=%5Bsplash%5D%20' + page + '&uid=' + uid + '&tid='
+					+ tid + '&time=' + diff + '&type=1&sid=' + rand + '&step=0';
+			var img = new Image;
+			img.src = url;
+		}
+	</script>
+	<link href="../../v3.jiathis.com/code/css/jiathis_share.css"
+		tppabs="http://v3.jiathis.com/code/css/jiathis_share.css"
+		rel="stylesheet" type="text/css">
+		<script type="text/javascript"
+			src="../../stcms.beisen.com/CmsPortal/6/6_themes_theme2_scripts_jquery.js-v=0.0.0.1"
+			tppabs="http://stcms.beisen.com/CmsPortal/6/6_themes_theme2_scripts_jquery.js?v=0.0.0.1"></script>
+		<script type="text/javascript"
+			src="../../stcms.beisen.com/CmsPortal/6/6_themes_theme2_scripts_bgfull.js-v=0.0.0.1"
+			tppabs="http://stcms.beisen.com/CmsPortal/6/6_themes_theme2_scripts_bgfull.js?v=0.0.0.1"></script>
+		<script type="text/javascript"
+			src="../../stcms.beisen.com/CmsPortal/6/6_themes_theme2_scripts_pagescripts.js-v=0.0.0.1"
+			tppabs="http://stcms.beisen.com/CmsPortal/6/6_themes_theme2_scripts_pagescripts.js?v=0.0.0.1"></script>
+		<script type="text/javascript">
+			var $bs_vars = {
+				'st' : '//stnew.beisen.com/',
+				'version' : '2016.09.09.003.htm'/*tpa=http://2345.zhiye.com/a/2016.09.09.003*/,
+				'constSite' : 'http://const.italent.cn/'
+			};
+			function vstr(str) {
+				if (typeof ($bs_vars) == 'undefine')
+					return str;
+				var result = str;
+				for ( var v in $bs_vars) {
+					var regex = new RegExp('\\$\\{' + v.toString() + '\\}|\\{'
+							+ v.toString() + '\\}', 'igm');
+					result = result.replace(regex, $bs_vars[v]);
+				}
+				return result;
+			};
+		</script>
+		<!--引用静态文件:requirejs-->
+		<script type="text/javascript"
+			src="../../stnew.beisen.com/2016.09.09.003/base/js/require.js"
+			tppabs="http://stnew.beisen.com/2016.09.09.003/base/js/require.js"></script>
+		<title>杭州二三四五网络科技有限公司网申系统--招聘流程</title>
+</head>
+<body>
+
+	<div class="indexmain">
+		<div class="header">
+			<div class="mainContent">
+				<div class="logo">
+					<img
+						src="../../stcms.beisen.com/CmsPortal/105288/105288_medias_20151123_20151123logo.png-v=635838822275970000.png"
+						tppabs="http://stcms.beisen.com/CmsPortal/105288/105288_medias_20151123_20151123logo.png?v=635838822275970000" />
+
+				</div>
+
+				<!--module:menu begin-->
+				<div class="bs-module">
+					<div class="menu-template6 ">
+
+						<ul id="portalmenu" class="nav">
+							<li class="line"
+								style="width: 0px; float: left; height: 30px; border-left: 1px solid #ccc; display: inline-block; vertical-align: top; position: relative; margin: 15px 30px 0px 0px;"></li>
+
+
+							<li class="item on"><a target="_self" href="home.htm"
+								tppabs="http://2345.zhiye.com/home">首页</a></li>
+
+							<li class="item "><a target="_self" href="Social.htm"
+								tppabs="http://2345.zhiye.com/Social">社会招聘</a>
+
+								<li class="item "><a target="_self" href="Campus.htm"
+									tppabs="http://2345.zhiye.com/Campus">校园招聘</a>
+									<ul class="subNav hidden">
+										<li><a target="_self" href="School Trip.htm"
+											tppabs="http://2345.zhiye.com/School Trip">校招行程</a></li>
+
+										<li><a target="_self" href="Recruit Process.htm"
+											tppabs="http://2345.zhiye.com/Recruit Process">招聘流程</a></li>
+									</ul></li>
+								<li class="item "><a target="_self" href="about 2345.htm"
+									tppabs="http://2345.zhiye.com/about 2345">走进2345</a></li>
+
+								<li class="item "><a target="_self" href="contactus.htm"
+									tppabs="http://2345.zhiye.com/contactus">联系我们</a></li>
+						</ul>
+
+					</div>
+				</div>
+				<!--module:menu end-->
+
+				<!--module:internalrecommend begin-->
+				<div class="bs-module">
+					<div class="internalrecommend-template6 ">
+
+						<div class="internaldiv"></div>
+
+					</div>
+				</div>
+				<!--module:internalrecommend end-->
+				<!--module:login begin-->
+				<div class="bs-module">
+					<div class="login-template6 ">
+
+						<style type="text/css">
+.isLogin, .unLogin {
+	display: inline-block;
+	vertical-align: top;
+	float:right
+}
+</style>
+						<div class="login login-hearder">
+
+							<div class="isLogin" style="display: none">
+								<a
+									href="javascript:if(confirm('http://2345.zhiye.com/Portal/Account/Login?returnUrl=http%3a%2f%2f2345.zhiye.com%2fPortal%2fApply%2fIndex  \n\n���ļ�δ�� Teleport Pro ���أ���Ϊ ���ļ������û������ѱ���ֹ����ù����ѱ�ֹͣ��  \n\n����Ҫ�ӷ�����������?'))window.location='http://2345.zhiye.com/Portal/Account/Login?returnUrl=http%3a%2f%2f2345.zhiye.com%2fPortal%2fApply%2fIndex'"
+									tppabs="http://2345.zhiye.com/Portal/Apply/Index"><span>个人中心</span></a>|
+								<a href="../index.htm"
+									tppabs="http://2345.zhiye.com/User/Account/LogOut"><span>退出</span></a>
+							</div>
+
+							<div class="unLogin" style="display: inline">
+								<a class="loginlink"
+									href="../Portal/Account/Login-returnUrl=-a-Recruit Process.htm"
+									tppabs="http://2345.zhiye.com/Portal/Account/Login?returnUrl=%2Fa%2FRecruit%20Process">登录</a>|
+								<a class="reglink"
+									href="../Portal/Account/Register-returnUrl=-a-Recruit Process.htm"
+									tppabs="http://2345.zhiye.com/Portal/Account/Register?returnUrl=%2Fa%2FRecruit%20Process">注册</a>
+							</div>
+
+						</div>
+
+						<script type="text/javascript">
+							var makeUserInfo = function(resp) {
+								var userInfo = {};
+								//userInfo.name = resp.Model.Email;
+								userInfo.isLogin = resp.Success;
+								return userInfo;
+							}
+
+							$
+									.ajax({
+										url : '/User/Account/GetUserLoginInfo?v='
+												+ Math.random(),
+										data : {},
+										cache : false,
+										type : 'post',
+										success : function(resp) {
+											//配置用户基本信息
+											var userInfo = makeUserInfo(resp);
+											var loginView = $(".login-hearder .isLogin");
+											var unLoginView = $(".login-hearder .unLogin");
+											if (userInfo.isLogin) {
+												loginView.show()
+											} else {
+												unLoginView.show()
+											}
+
+										}//success
+										,
+										error : function() {
+											throw new Error(
+													'ERROR: get user info')
+										}
+									});//ajax
+						</script>
+
+
+					</div>
+				</div>
+				<!--module:login end-->
+			</div>
+		</div>
+		<div class="banner">
+
+			<img
+				src="../../stcms.beisen.com/CmsPortal/105288/105288_medias_20151123_20151123bannerarticle.jpg-v=635838821791030000.jpg"
+				tppabs="http://stcms.beisen.com/CmsPortal/105288/105288_medias_20151123_20151123bannerarticle.jpg?v=635838821791030000"
+				draggable="false" />
+
+		</div>
+		<div class="content">
+			<div class="mainContent">
+				<div class="narrow mr10">
+					<!--职位分类列表-->
+					<div class="box pb10">
+
+						<!--module:menu begin-->
+						<div class="bs-module">
+							<div class="menu-template6submenu ">
+
+								<ul class="contactList">
+
+									<li><a target="_self" href="../Campus.htm"
+										tppabs="http://2345.zhiye.com/Campus">校园招聘</a></li>
+									<li><a target="_self" href="School Trip.htm"
+										tppabs="http://2345.zhiye.com/a/School Trip">校招行程</a></li>
+									<li><a class="on" target="_self"
+										href="Recruit Process.htm"
+										tppabs="http://2345.zhiye.com/a/Recruit Process">招聘流程</a></li>
+								</ul>
+
+							</div>
+						</div>
+						<!--module:menu end-->
+					</div>
+					<!--列表结束，动态开始-->
+					<div class="box">
+
+						<!--module:newslist begin-->
+						<div class="bs-module">
+							<div class="newslist-template6simple ">
+
+								<div class="boxSupertitle">
+									<span>招聘动态</span> <a class="more" href="../newslist.htm"
+										tppabs="http://2345.zhiye.com/newslist"></a>
+								</div>
+
+								<ul class="newsList">
+									<li><a>暂无内容</a></li>
+								</ul>
+
+							</div>
+						</div>
+						<!--module:newslist end-->
+					</div>
+				</div>
+				<div class="wide">
+					<div class="box">
+
+
+						<div class="boxSupertitle">
+							<span>招聘流程</span>
+						</div>
+						<div class="aboutContent">
+							<p class="unreset">
+								<img
+									src="../../stcms.beisen.com/CmsPortal/105288/105288_medias_2016926_2016926142643497.jpg"
+									tppabs="http://stcms.beisen.com/CmsPortal/105288/105288_medias_2016926_2016926142643497.jpg"
+									alt="" /><img
+									src="../../stcms.beisen.com/CmsPortal/105288/105288_medias_2016926_2016926142651749.jpg"
+									tppabs="http://stcms.beisen.com/CmsPortal/105288/105288_medias_2016926_2016926142651749.jpg"
+									alt="" />
+							</p>
+							<p class="unreset">&nbsp;</p>
+						</div>
+					</div>
+				</div>
+				<div class="footer3">
+					&copy;2019&nbsp;&nbsp;杭州二三四五网络科技有限公司&nbsp;&nbsp;&nbsp京ICP备01234567号&nbsp<a
+						target="_blank"
+						href="javascript:if(confirm('http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020454  \n\n���ļ�δ�� Teleport Pro ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·���С�  \n\n����Ҫ�ӷ�����������?'))window.location='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020454'"
+						tppabs="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020454"
+						style="display: inline-block; text-decoration: none; height: 20px; line-height: 20px; color: #000000;"><img
+						src="../../stnew03.beisen.com/ux/tms-recruit/release/app/images/beian.png"
+						tppabs="http://stnew03.beisen.com/ux/tms-recruit/release/app/images/beian.png"
+						style="float: left;" />京公网安备 012345678910123号</a>&nbsp;Powered
+					by&nbsp;<a
+						href="javascript:if(confirm('http://www.beisen.com/  \n\n���ļ�δ�� Teleport Pro ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·���С�  \n\n����Ҫ�ӷ�����������?'))window.location='http://www.beisen.com/'"
+						tppabs="http://www.beisen.com/" class="footerlogo" target="_blank"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	require([ vstr('${st}/${version}/cmsportal/skin/js/baiduStatistics.js'/*tpa=http://2345.zhiye.com/a/${st}/${version}/cmsportal/skin/js/baiduStatistics.js*/)
+
+	]);
+</script>
+<script type="text/javascript">
+	$(function() {
+		_splash('zhiye_contentpage', 0, 105288,
+				'http://2345.zhiye.com/404?errorpath=%2fa%2fnew.zhiye.com');
+	});
+</script>
